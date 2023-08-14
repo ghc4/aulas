@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int n;
-    float i, pv, pmt, fv;
+    double i, pv, pmt, fv;
     cout << "N: ";   cin >> n;
     cout << "I: ";   cin >> i;
     cout << "PV: ";  cin >> pv;
