@@ -1,2 +1,2 @@
-# Repositório de OOP
+# Repositório de aulas
 
