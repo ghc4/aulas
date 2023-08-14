@@ -1,5 +1,3 @@
-Source: https://github.com/mortennobel/cpp-cheatsheet
-
 # C++ QUICK REFERENCE / C++ CHEATSHEET
 Based on <a href="http://www.pa.msu.edu/~duxbury/courses/phy480/Cpp_refcard.pdf">Phillip M. Duxbury's C++ Cheatsheet</a> and edited by Morten Nobel-Jørgensen.
 The cheatsheet focus is both on the language as well as common classes from the standard library.
