@@ -7,6 +7,7 @@ int main() {
     cout << "I: ";   cin >> i;
     cout << "PV: ";  cin >> pv;
     cout << "PMT: "; cin >> pmt;
+    fv = pv;
     while(n-- > 0) {
         fv = fv*(1+(i/100))+pmt;
     }
