@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+class Caixa {
+   public:
+      double comprimento;   
+      double profundidade;  
+      double altura;   
+};
+int main() {
+   Caixa som;           
+   som.altura = 5.0; 
+   som.comprimento = 6.0; 
+   som.profundidade = 7.0;
+   cout << "B1 H: " << som.comprimento <<endl;
+   return 0;
+}
