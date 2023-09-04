@@ -54,7 +54,7 @@ void Caixa::imprimeDados() {
 
 // Código
 int main() {
-	Caixa caixas[10];
+    Caixa caixas[10];
     caixas[0].nome = "Caixa 01";
     caixas[0].comprimento = 2;
     caixas[0].profundidade = 3;
