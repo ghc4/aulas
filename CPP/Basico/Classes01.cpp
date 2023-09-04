@@ -54,10 +54,16 @@ void Caixa::imprimeDados() {
 
 // Código
 int main() {
-   Caixa caixaDeSapato("Caixa de sapato", 5.1, 4.2, 3.3123);  
-   caixaDeSapato.imprimeDados();
-   Caixa caixaVazia;
-   caixaVazia.imprimeDados();
-   return 0;
+	Caixa caixas[10];
+    caixas[0].nome = "Caixa 01";
+    caixas[0].comprimento = 2;
+    caixas[0].profundidade = 3;
+    caixas[0].altura = 4;
+    caixas[0].imprimeDados();
+    Caixa caixaDeSapato("Caixa de sapato", 5.1, 4.2, 3.3123);  
+    caixaDeSapato.imprimeDados();
+    Caixa caixaVazia;
+    caixaVazia.imprimeDados();
+    return 0;
 }
 
