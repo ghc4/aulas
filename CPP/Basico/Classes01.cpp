@@ -42,9 +42,9 @@ double Caixa::base() {
 
 // Implementação do método
 void Caixa::imprimeDados() {
-	printf("--------------------------------------------\n");
+    printf("--------------------------------------------\n");
     printf("Nome...........: %s\n",    nome.c_str());
-	printf("Comprimento....: %10.2lf\n", comprimento);
+    printf("Comprimento....: %10.2lf\n", comprimento);
     printf("Profundidade...: %10.2lf\n", profundidade);
     printf("Altura.........: %10.2lf\n", altura);
     printf("Volume.........: %10.2lf\n", volume());
