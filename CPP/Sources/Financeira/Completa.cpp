@@ -1,5 +1,5 @@
 // vim: ts=4 sw=4 sts=4 et number : 
-// chcp 65001; gcc 01_0_Completa.cpp && ./a.exe
+// chcp 65001; c++ 01_0_Completa.cpp && ./a.exe
 
 #include <fstream>
 #include <iostream>
