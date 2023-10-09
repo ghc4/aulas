@@ -14,8 +14,8 @@ class Pessoas {
         static int cnt;
         string nome, email;
         virtual void printa() {
-        	printf("CNT...........: %8d\n", Pessoas::cnt);
-        	printf("ID............: %8d\n", id);
+            printf("CNT...........: %8d\n", Pessoas::cnt);
+            printf("ID............: %8d\n", id);
             printf("Nome..........: %s\n",  nome.c_str());
             printf("Idade.........: %3d\n", idade);
             printf("Email.........: %s\n",  email.c_str());
