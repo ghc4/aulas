@@ -385,3 +385,6 @@ int main() {
     return 0;
 }
 
+
+
+https://www.programiz.com/c-programming/c-structures
