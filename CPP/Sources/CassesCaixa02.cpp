@@ -19,7 +19,7 @@ void Caixa::printa() {
 }
 void Caixa::printaVolume() {
   double volume = comprimento * profundidade * altura;
-  printf("\nVolume........: %8.02lf", volume);
+  printf("\nVolume........: %8.02lf", volume); 
 }
 Caixa::Caixa() {
   comprimento = 0;
