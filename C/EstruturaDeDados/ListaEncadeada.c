@@ -1,4 +1,4 @@
-// Código gerado no ChatGPT
+// Código gerado pelo ChatGPT
 
 #include <stdio.h>
 #include <stdlib.h>
