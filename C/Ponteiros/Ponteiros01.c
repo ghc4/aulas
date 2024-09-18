@@ -9,3 +9,4 @@ int main() {
     printf("%p\n", &t);     // Imprime endereço de t
     return 0;
 }
+
