@@ -5,7 +5,7 @@ int main() {
     printf("Digite uma string (pressione Enter para finalizar): ");
     while (tamanho<19 && caractere!='\n') normal[tamanho++] = caractere = getchar();
     tamanho--;
-    for(int i=0; i<tamanho/2; i++) {   // sera que esta certo?
+    for(int i=0; i<(tamanho/2)+1; i++) {   
         char charfim = normal[tamanho-i];
         char charini = normal[i];
         normal[tamanho-i] = charini;
@@ -15,4 +15,3 @@ int main() {
     printf("\nString invertida: %s\n", normal);
     return 0;
 }
-
